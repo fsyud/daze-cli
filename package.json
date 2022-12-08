@@ -1,0 +1,35 @@
+{
+  "name": "daze-cli",
+  "version": "1.0.0",
+  "description": "Quickly create scaffolding for personal commonly used templates",
+  "main": "index.js",
+  "bin": {
+    "daze": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligdy7/daze-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "daze"
+  ],
+  "author": "ligdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ligdy7/daze-cli/issues"
+  },
+  "homepage": "https://github.com/ligdy7/daze-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.5",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1"
+  }
+}
